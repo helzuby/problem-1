@@ -14,7 +14,7 @@ function longestWord(str) {
 
   let longestWord = "";
 
-  for(let i = 0 ; i < arrayOfWords.length ; i++) {
+  for(let i = 0; i < arrayOfWords.length; i++) {
     if(arrayOfWords[i].length > longestWord.length) {
       longestWord = arrayOfWords[i];
     } 
